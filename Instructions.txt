@@ -1,0 +1,60 @@
+***
+
+# JurisAI MVP – User Guide
+
+### What is JurisAI?
+JurisAI is a legal document analyzer MVP that uses AI to extract, analyze, and answer questions about uploaded legal documents.
+
+***
+
+## How to Access & Use the MVP
+
+### 1. **Open the Streamlit App**
+- Judges will receive an **ngrok URL** (e.g., `https://xxxx-xxxx-xxxx.ngrok-free.app`) for the Streamlit web interface.
+- Open this URL in any web browser (Chrome, Firefox, Edge, etc.).
+
+***
+
+### 2. **Upload a Legal Document**
+- On the homepage, click “Browse files” to upload a PDF of a legal document (e.g., contract, agreement, privacy policy).
+- Select the appropriate document type from the dropdown menu.
+- Click the **“Analyze”** button.
+
+***
+
+### 3. **View the Analysis**
+- After processing, the app displays:
+    - A unique **Document ID** for Q&A.
+    - Key highlights, extracted text, and AI analysis summary of the document.
+
+***
+
+### 4. **Ask Questions about the Document**
+- In the “Paste Document ID for Q&A” field, ensure the Document ID (shown above) is present.
+- Enter any legal question related to the document (e.g., “What is the termination clause?”).
+- Click the **“Ask”** button.
+- The AI’s answer will appear below.
+
+***
+
+### 5. **Repeat or Explore**
+- Judges may upload more documents or ask multiple questions about the same document using its ID.
+- Each PDF generates a new Document ID for reference.
+
+***
+
+## **Supported Features**
+- Upload and automatic AI analysis for legal PDFs.
+- Key clause extraction and highlighting.
+- Natural language Q&A over the uploaded document using Google Gemini API.
+- User-friendly web interface, accessible via a shared ngrok URL.
+
+***
+
+**For any issues:**  
+- Refresh the ngrok URL or restart the interface if inactive.
+- Document ID must match the file analyzed.
+
+***
+
+Thank you for using JurisAI!
