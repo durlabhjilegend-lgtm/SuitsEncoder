@@ -1,1 +1,1 @@
-This repo contains my collab notebook
+This repository contains the Collab Notebook that has the Jurius AI feature coded in it.
